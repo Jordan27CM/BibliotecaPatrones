@@ -120,6 +120,7 @@ Este diseño permite que el sistema sea escalable, mantenible y extensible para 
 
 ## ✅ Conclusión
 
-Este sistema proporciona una base robusta, adaptable y mantenible gracias al uso estratégico de patrones de diseño. Está preparado para futuras mejoras como:
+Este sistema proporciona una base robusta, adaptable y mantenible gracias al uso estratégico de patrones de diseño.
+Autor: Jordan Murillo
 
 
