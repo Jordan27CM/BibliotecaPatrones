@@ -50,7 +50,7 @@ El código está estructurado en paquetes modulares con responsabilidades claras
 - **¿Cómo?** Implementando `Iterable<Libro>` en la clase `ColeccionLibros`.
 - **¿Dónde?** En el módulo de listado de libros.
 
-![image](https://github.com/user-attachments/assets/999aae8a-98e5-4605-a288-e9a7a22e9f0e)
+![image](https://raw.githubusercontent.com/Jordan27CM/BibliotecaPatrones/refs/heads/main/img/Patron%20Iterator.png)
 
 
 ---
@@ -61,7 +61,7 @@ El código está estructurado en paquetes modulares con responsabilidades claras
 - **¿Cómo?** Mediante `implements Cloneable` en la clase `Libro` y el método `clone()`.
 - **¿Dónde?** Utilizado indirectamente por adaptadores u operaciones internas que requieren copias.
 
-![image](https://github.com/user-attachments/assets/79312a29-c363-4901-9d21-ea9644cb8fb4)
+![image](https://raw.githubusercontent.com/Jordan27CM/BibliotecaPatrones/refs/heads/main/img/Patron%20Prototype.png)
 
 
 ---
@@ -71,7 +71,7 @@ El código está estructurado en paquetes modulares con responsabilidades claras
 - **¿Por qué?** Para integrar objetos de tipo `LibroExterno` sin modificar su estructura original.
 - **¿Cómo?** A través de la clase `LibroExternoAdapter` que convierte libros externos a objetos del sistema.
 - **¿Dónde?** Disponible en el menú con la opción “Agregar Libro Externo”.
-![image](https://github.com/user-attachments/assets/829d192b-66e2-4bd0-9cb7-0594163c3da4)
+![image](https://github.com/Jordan27CM/BibliotecaPatrones/blob/main/img/Libro%20Externo.png)
 ![image](https://github.com/user-attachments/assets/db78165d-ae7e-4cc1-92e9-2623beb8f728)
 
 ---
