@@ -77,7 +77,7 @@ El código está estructurado en paquetes modulares con responsabilidades claras
 ---
 ## 🧾 Diagrama de Clases
 
-![diagrama de clases](https://github.com/user-attachments/assets/c692e376-7ac9-4091-a883-2d5f15b43c91)
+!img/diagrama de clases.png
 
 ### 🔍 Explicación General
 
