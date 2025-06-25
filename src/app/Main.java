@@ -4,13 +4,13 @@
  */
 package app;
 
-import biblioteca.models.ColeccionLibros;
-import biblioteca.models.Libro;
-import biblioteca.models.Usuario;
-import biblioteca.models.Biblioteca;
-import biblioteca.models.LibroExterno;
-import biblioteca.models.LibroExternoAdapter;
-import biblioteca.models.Prestamo;
+import models.ColeccionLibros;
+import models.Libro;
+import models.Usuario;
+import models.Biblioteca;
+import adapter.LibroExterno;
+import adapter.LibroExternoAdapter;
+import models.Prestamo;
 import java.util.List;
 import java.util.Scanner;
 
