@@ -39,7 +39,7 @@ El código está estructurado en paquetes modulares con responsabilidades claras
 - **¿Cómo?** Usando una instancia estática privada y un método `getInstance()`.
 - **¿Dónde?** En la clase `Biblioteca`, usada desde todo el sistema.
 
-![image](https://github.com/user-attachments/assets/976b2a77-0bbc-48fb-b22a-dbcaf1dbcd7a)
+![image](https://raw.githubusercontent.com/Jordan27CM/BibliotecaPatrones/refs/heads/main/img/Patron%20Singleton.png)
 
 
 ---
