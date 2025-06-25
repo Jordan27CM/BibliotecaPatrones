@@ -29,6 +29,6 @@ public class ColeccionLibros implements Iterable<Libro>{
 
     @Override
     public Iterator<Libro> iterator() {
-        return libros.iterator(); // usamos directamente el iterador de la lista
+        return libros.iterator();
     }
 }

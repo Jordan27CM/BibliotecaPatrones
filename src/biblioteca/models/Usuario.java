@@ -14,26 +14,43 @@ import java.util.List;
 public class Usuario {
     private String nombre;
     private String rut;
+    private String telefono;
+    private String direccion;
     private List<Libro> librosPrestados;
 
-    public Usuario(String nombre, String rut) {
+    public Usuario(String nombre, String rut, String telefono, String direccion) {
         this.nombre = nombre;
         this.rut = rut;
+        this.telefono = telefono;
+        this.direccion = direccion;
         this.librosPrestados = new ArrayList<>();
     }
 
-    public void prestarLibro(Libro libro) {
-        librosPrestados.add(libro);
+    public String getNombre() {
+        return nombre;
     }
 
-    public void devolverLibro(Libro libro) {
-        librosPrestados.remove(libro);
+    public String getRut() {
+        return rut;
+    }
+
+    public String getTelefono() {
+        return telefono;
+    }
+
+    public String getDireccion() {
+        return direccion;
     }
 
     public List<Libro> getLibrosPrestados() {
         return librosPrestados;
     }
 
-    public String getNombre() { return nombre; }
-    public String getRut() { return rut; }
+    public void prestarLibro(Libro libro) {
+        librosPrestados.add(libro);
+    }
+
+    public void devolverLibro(String isbn) {
+        librosPrestados.removeIf(libro -> libro.getIsbn().equals(isbn));
+    }
 }

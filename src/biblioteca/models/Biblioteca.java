@@ -63,7 +63,7 @@ public class Biblioteca {
         }
 
         if (libroDevuelto != null) {
-            usuario.devolverLibro(libroDevuelto);
+            usuario.devolverLibro(libroDevuelto.getIsbn());
             stock.devolverLibro(isbn);
             // opcional: eliminar el préstamo del historial si se desea
         }

@@ -9,20 +9,38 @@ package biblioteca.models;
  * @author Jorda
  */
 public class LibroExterno {
-     private String tituloExterno;
-    private String autorExterno;
-    private String isbnExterno;
-    private String categoriaExterna;
+    private String nombre;
+    private String escritor;
+    private String codigo;
+    private String tipo;
+    private String detalles;
 
-    public LibroExterno(String titulo, String autor, String isbn, String categoria) {
-        this.tituloExterno = titulo;
-        this.autorExterno = autor;
-        this.isbnExterno = isbn;
-        this.categoriaExterna = categoria;
+    public LibroExterno(String nombre, String escritor, String codigo, String tipo, String detalles) {
+        this.nombre = nombre;
+        this.escritor = escritor;
+        this.codigo = codigo;
+        this.tipo = tipo;
+        this.detalles = detalles;
     }
 
-    public String getTituloExterno() { return tituloExterno; }
-    public String getAutorExterno() { return autorExterno; }
-    public String getIsbnExterno() { return isbnExterno; }
-    public String getCategoriaExterna() { return categoriaExterna; }
+    public String getNombre() {
+        return nombre;
+    }
+
+    public String getEscritor() {
+        return escritor;
+    }
+
+    public String getCodigo() {
+        return codigo;
+    }
+
+    public String getTipo() {
+        return tipo;
+    }
+
+    public String getDetalles() {
+        return detalles;
+    }
+
 }

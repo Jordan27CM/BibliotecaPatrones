@@ -20,7 +20,7 @@ public class Prestamo {
         this.usuario = usuario;
         this.libro = libro;
         this.fechaPrestamo = LocalDate.now();
-        this.fechaDevolucion = fechaPrestamo.plusDays(14); // 2 semanas
+        this.fechaDevolucion = fechaPrestamo.plusDays(14);
     }
 
     public Usuario getUsuario() { return usuario; }
